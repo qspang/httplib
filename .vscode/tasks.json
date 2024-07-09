@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
     "version": "2.0.0",
+=======
+>>>>>>> 0e83ca604eb12626d19b3aea66e91c6f0713790d
     "tasks": [
         {
             "type": "cppbuild",
@@ -10,10 +13,14 @@
                 "-g",
                 "${file}",
                 "-o",
+<<<<<<< HEAD
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lboost_filesystem",
                 "-lboost_system",
                 "-lpthread"
+=======
+                "${fileDirname}/${fileBasenameNoExtension}"
+>>>>>>> 0e83ca604eb12626d19b3aea66e91c6f0713790d
             ],
             "options": {
                 "cwd": "${fileDirname}"
@@ -27,5 +34,11 @@
             },
             "detail": "调试器生成的任务。"
         }
+<<<<<<< HEAD
     ]
 }
+=======
+    ],
+    "version": "2.0.0"
+}
+>>>>>>> 0e83ca604eb12626d19b3aea66e91c6f0713790d
