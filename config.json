@@ -1,0 +1,16 @@
+{
+    "address": "127.0.0.1",
+    "port": 8084,
+    "max_keep_alive_count": 5,
+    "max_concurrent_sessions": 10,
+    "run_as_user": "nobody",
+    "routes": [
+        {
+            "url": "/data",
+            "handler": "data",
+            "params": {
+                "dir": "/home/scutech/pqs/store"
+            }
+        }
+    ]
+}
